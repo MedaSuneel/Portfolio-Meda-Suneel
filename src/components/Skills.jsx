@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaCode, FaPhp, FaFigma, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiMysql, SiFirebase, SiPostman, SiGithubpages  } from "react-icons/si";
+import { SiTailwindcss, SiMysql, SiFirebase,SiVercel, SiPostman, SiGithubpages  } from "react-icons/si";
 import { BsFillPaletteFill } from "react-icons/bs";
 
 const skillCategories = [
@@ -31,7 +31,8 @@ const skillCategories = [
       { name: "Figma", icon: <FaFigma className="text-pink-600" /> },
       { name: "Canva", icon: <BsFillPaletteFill className="text-violet-500" /> },
       { name: "GitHub Pages", icon: <SiGithubpages className="text-gray-800\" /> },
-      { name: "Firebase Hosting", icon: <SiFirebase className="text-yellow-500\" /> }
+      { name: "Firebase Hosting", icon: <SiFirebase className="text-yellow-500\" /> }, 
+      { name: "Vercel", icon: <SiVercel className="text-black" /> }
     ]
   },
   {
