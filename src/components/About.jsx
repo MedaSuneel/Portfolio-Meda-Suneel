@@ -13,7 +13,7 @@ export default function About() {
       >
         <h2 className="text-3xl font-bold text-indigo-700 mb-4">About Me</h2>
         <p className="text-md md:text-xl md:font-semibold text-black leading-relaxed">
-          I'm a passionate B.Tech Computer Science Engineering student from VVIT (2022–2026) with a CGPA of 9.0. I enjoy full-stack development,
+          I'm a passionate B.Tech Computer Science Engineering student from VVIT (2022–2026). I enjoy full-stack development,
           crafting clean UI/UX experiences, and solving real-world problems using modern technologies. My journey includes building feature-rich web applications
           with React, Firebase, Tailwind CSS, and backend integrations using PHP and MySQL. I am an active participant in tech events and competitions and love to
           build community-driven projects that make an impact.
