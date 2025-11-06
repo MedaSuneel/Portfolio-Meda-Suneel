@@ -3,19 +3,27 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    title: "Java Developer Intern",
-    company: "Oasis Infobyte",
-    duration: "1 Month",
-    description: "Worked on Java-based programming tasks and implemented mini-projects focused on object-oriented principles and file handling.",
-    certificateLink: "https://drive.google.com/file/d/1sM8-YSKr9Z7zOLqpniJ9Rf7S__I73l_a/view?usp=sharing"
+    title: "Employability Skills Intern",
+    company: "AICTE",
+    duration: "3 Months",
+    description: "Completed scenario-based training on workplace communication, email etiquette, conflict resolution, and professional collaboration.",
+    certificateLink: "https://www.linkedin.com/posts/meda-suneel-ba4984269_employability-skill-job-ready-virtual-internship-activity-7353795833835778048-Cy9I?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHRZawBEGS7IqHLm-PGIYPEaYtXK9NbfDA"
   },
+  
   {
     title: "Web Developer Intern",
     company: "Codsoft",
     duration: "1 Month",
     description: "Built responsive web pages using HTML, CSS, JavaScript. Integrated basic forms and handled client-side validation and DOM manipulation.",
     certificateLink: "https://drive.google.com/file/d/1mOY--DuVgUG_pfw4PU8IACGkoXpcTIus/view?usp=sharing"
-  }
+  },
+  {
+    title: "Java Developer Intern",
+    company: "Oasis Infobyte",
+    duration: "1 Month",
+    description: "Worked on Java-based programming tasks and implemented mini-projects focused on object-oriented principles and file handling.",
+    certificateLink: "https://drive.google.com/file/d/1sM8-YSKr9Z7zOLqpniJ9Rf7S__I73l_a/view?usp=sharing"
+  },
 ];
 
 export default function Experience() {

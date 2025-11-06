@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaCode, FaPhp, FaFigma, FaGitAlt, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiMysql, SiFirebase,SiVercel, SiPostman, SiGithubpages  } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaCode, FaFigma, FaGitAlt, FaGithub } from "react-icons/fa";
+import { SiTailwindcss, SiMysql, SiFirebase,SiVercel,SiMongodb, SiPostman, SiGithubpages  } from "react-icons/si";
 import { BsFillPaletteFill } from "react-icons/bs";
 
 const skillCategories = [
@@ -19,10 +19,9 @@ const skillCategories = [
   {
     title: "Backend & Database",
     skills: [
-      { name: "PHP", icon: <FaPhp className="text-purple-700" /> },
+      { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
       { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
       { name: "MySQL", icon: <SiMysql className="text-blue-700" /> },
-      { name: "Firebase DB", icon: <SiFirebase className="text-yellow-500" /> }
     ]
   },
   {

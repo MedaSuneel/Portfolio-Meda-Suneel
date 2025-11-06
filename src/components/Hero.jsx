@@ -30,9 +30,7 @@ export default function Hero() {
               options={{
                 strings: [
                   "Full-Stack Developer",
-                  "React Developer",
-                  "UI Engineer",
-                  "Firebase App Developer"
+                  "ML Engineer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -44,26 +42,7 @@ export default function Hero() {
         </span>
       </motion.div>
 
-      <motion.div
-        className="mt-8 flex flex-col sm:flex-row gap-4 justify-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.7, duration: 0.8 }}
-      >
-        <a
-          href="#projects"
-          className="px-6 py-3 rounded-full bg-indigo-700 text-white hover:bg-indigo-800 transition font-semibold"
-        >
-          View Projects
-        </a>
-        <a
-          href="/MEDA_SUNEEL_RESUME.pdf"
-          className="px-6 py-3 rounded-full border border-indigo-700 text-indigo-700 hover:bg-indigo-700 hover:text-white transition font-semibold"
-          target="_blank"
-        >
-          Download Resume
-        </a>
-      </motion.div>
+      
 
       <motion.div
         className="mt-12 animate-bounce text-indigo-600"

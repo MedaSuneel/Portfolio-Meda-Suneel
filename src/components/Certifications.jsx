@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 
 const certifications = [
   {
+  title: "Introduction to Modern AI",
+  provider: "Cisco Networking Academy",
+  duration: "2024",
+  description: "Explored core concepts of Artificial Intelligence, including machine learning, neural networks, and AI applications in modern industries.",
+  link: "https://www.linkedin.com/in/meda-suneel-ba4984269/overlay/1755057840728/single-media-viewer?type=DOCUMENT&profileId=ACoAAEHRZawBEGS7IqHLm-PGIYPEaYtXK9NbfDA&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BwTGLIXDZT3CbzfRCWndhxQ%3D%3D"
+ },
+  {
     title: "Data Structures and Algorithms in Java",
     provider: "NPTEL",
     duration: "2024",
@@ -18,14 +25,14 @@ const certifications = [
   },
   {
     title: "Programming in Java",
-    provider: "edX, NPTEL",
+    provider: "NPTEL",
     duration: "2023",
     description: "Explored object-oriented concepts, syntax, and core principles in Java programming.",
     link: "https://drive.google.com/file/d/1zCbnBZi_dcIzazoOUKncpcxV3xt5rCrr/view?usp=sharing"
   },
   {
     title: "Web Development (HTML, CSS, JavaScript)",
-    provider: "edX, Infosys Springboard",
+    provider: "edX",
     duration: "2023",
     description: "Built interactive websites using modern frontend technologies and design principles.",
     link: "https://courses.edx.org/certificates/7219958868b444a7b198cd43c07b5742"

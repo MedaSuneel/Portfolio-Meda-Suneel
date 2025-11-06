@@ -8,6 +8,11 @@ const achievements = [
     title: "Top 50 Participant",
     subtitle: "Ranked among the Top 50 Participants, FuelEd and Fountane Wealth Map Challenge 2025 – Received branded merchandise for outstanding performance."
   },
+  {
+  icon: <FaMedal className="text-yellow-500 text-4xl" />,
+  title: "Gold Badge in Java",
+  subtitle: "Earned a Gold Badge on HackerRank for exceptional problem-solving skills and consistent performance in Java challenges."
+},
   
   {
     icon: <FaStar className="text-purple-500 text-4xl" />, 

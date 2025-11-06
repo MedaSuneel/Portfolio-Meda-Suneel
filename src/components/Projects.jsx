@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Teacher's Diary",
+    title: "Learning Buddy",
     description:
-      "A web platform designed to help teachers efficiently manage class schedules, attendance records, academic notes, and student performance in one centralized system. It streamlines daily tasks and enhances classroom organization for educators.",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    live: "https://www.linkedin.com/posts/meda-suneel-ba4984269_webdevelopment-firstproject-teacherdiary-activity-7296431496821620736-GHc6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHRZawBEGS7IqHLm-PGIYPEaYtXK9NbfDA",
-    github: "https://github.com/MedaSuneel/Teachers_Diary",
+      "An AI-powered web platform that serves as a personalized study companion, offering chat assistance, quizzes, mock interviews, podcasts, and document summarization — all in one interactive and user-friendly interface to enhance learning and self-assessment.",
+    tech: ["React", "Tailwing CSS", "Firebase", "Gemini API", "Web Speech API", "Recharts"],
+    live: "https://www.linkedin.com/posts/meda-suneel-ba4984269_ai-webdevelopment-reactjs-activity-7392259066741506048-8vu2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHRZawBEGS7IqHLm-PGIYPEaYtXK9NbfDA",
+    github: "https://github.com/MedaSuneel/Learning_Buddy",
   },
   {
     title: "Wealth Map",
@@ -17,6 +17,14 @@ const projects = [
     tech: ["React", "Firebase", "Tailwind CSS"],
     live: "https://www.linkedin.com/posts/meda-suneel-ba4984269_wealthmap-fueled-fountane-activity-7342519113178632192-XHm7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHRZawBEGS7IqHLm-PGIYPEaYtXK9NbfDA",
     github: "https://github.com/MedaSuneel/wealth-map",
+  },
+  {
+    title: "Teacher's Diary",
+    description:
+      "A web platform designed to help teachers efficiently manage class schedules, attendance records, academic notes, and student performance in one centralized system. It streamlines daily tasks and enhances classroom organization for educators.",
+    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    live: "https://www.linkedin.com/posts/meda-suneel-ba4984269_webdevelopment-firstproject-teacherdiary-activity-7296431496821620736-GHc6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHRZawBEGS7IqHLm-PGIYPEaYtXK9NbfDA",
+    github: "https://github.com/MedaSuneel/Teachers_Diary",
   },
 ];
 
@@ -39,7 +47,8 @@ export default function Projects() {
                   {project.tech.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="bg-white border border-indigo-200 text-indigo-600 text-xs md:text-lg font-semibold px-2.5 py-1 rounded-full"
+                      className="bg-white
+                       border border-indigo-200 text-indigo-600 text-xs md:text-lg font-semibold px-2.5 py-1 rounded-full"
                     >
                       {tech}
                     </span>
